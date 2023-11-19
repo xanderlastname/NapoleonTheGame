@@ -8,9 +8,7 @@ class Player:
 
 
 def question(*prompts, question):
-    lenPrompt = len(prompts)
     print(question)
     for prompt in prompts:
+         = prompts.index(prompt) + 1
         print(prompt)
-
-question('Yes', 'No', 'maybe', question="Do you want to do this")
