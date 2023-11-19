@@ -2,5 +2,5 @@
 #in cmd paste "python main.py"
 
 class Napoelon:
-    def __init__(self):
-        
+    def __init__(self, health):
+        self.health = health
