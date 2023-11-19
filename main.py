@@ -1,6 +1,7 @@
 #main python file
 #in cmd paste "python main.py"
 
-class Napoelon:
-    def __init__(self, health):
+class Player:
+    def __init__(self, health, points):
         self.health = health
+        self.points = points
