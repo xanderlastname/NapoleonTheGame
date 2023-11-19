@@ -9,6 +9,7 @@ class Player:
 
 def question(*prompts, question):
     print(question)
+    print("Please choose an option:")
     for prompt in prompts:
-         = prompts.index(prompt) + 1
-        print(prompt)
+        current = prompts.index(prompt) + 1
+        print(f"{current}. {prompt}")
