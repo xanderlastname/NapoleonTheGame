@@ -18,3 +18,4 @@ def question(*options, prompt):
     for option in options:
         current = options.index(prompt) + 1
         print(f"{current}. {option}")
+balls
